@@ -35,6 +35,12 @@ $cpf = $cpf . "-" . $dv1 . $dv2;
   <head>
 
   <style>
+ body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+    
 .center {
   text-align: center;
   border: 3px solid green;
